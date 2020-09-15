@@ -14,6 +14,7 @@ routes.get('/lists/:id', listsController.Index);
 
 routes.get('/items', itemsController.Show);
 routes.post('/items', itemsController.Create);
-routes.put('/items/:id', itemsController.UpdateDone);
+//routes.put('/items/:id', itemsController.UpdateDone);
+routes.put('/items/:id', itemsController.UpdateInsertItemsList);
 
 export default routes;
